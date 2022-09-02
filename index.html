@@ -9,20 +9,23 @@
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
+    <link rel="stylesheet" href="style.css">
+  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <main>
 
-  <div class="hero-image">
-    <figure>
-      <img src="./images/illustration-hero.svg" alt="Person listening to music">
-    </figure>
-  </div>
+    <div class="hero-image">
+      <figure>
+        <img src="./images/illustration-hero.svg" alt="Person listening to music">
+      </figure>
+    </div>
 
     <div class="order-text">
 
@@ -33,7 +36,7 @@
     </div>
 
           
-     <div class="plan-component">
+    <div class="plan-component">
         <img src="./images/icon-music.svg" alt="music icon">
 
           <h2>Annual Plan</h2>
@@ -42,13 +45,14 @@
         <a href="#">Change</a>
      </div>
 
-    <div class="payment-button"> 
-      <button>Proceed to Payment</button>
-    </div> 
+      <input type="button" 
+            class="payment-button"
+            value="Proceed to Payment"> 
+      </input> 
 
-    <div id="cancel">
+      <div id="cancel">
         <a href="#">Cancel Order</a>
-    </div>
+      </div>
 
   </main>
   
