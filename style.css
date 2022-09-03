@@ -4,8 +4,8 @@ body {
     background-image:url("./images/pattern-background-mobile.svg");
 }
 
-
-
 main {
     background-color: white;
+    width:375px;
 }
+
