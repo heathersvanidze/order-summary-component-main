@@ -1,5 +1,9 @@
 /*GENERAL STYLES*/
 
+h1, p {
+    font-family:'Red Hat Display', sans-serif;
+}
+
 body {
     background-image:url("./images/pattern-background-mobile.svg");
 }
@@ -7,5 +11,22 @@ body {
 main {
     background-color: white;
     width:375px;
+    margin:auto;
+}
+
+figure {
+    margin:0;
+}
+
+img {
+    width:100%;
+}
+
+.order-text {
+    padding:20px;
+}
+
+#music-icon {
+
 }
 
