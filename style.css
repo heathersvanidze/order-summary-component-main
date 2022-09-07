@@ -4,6 +4,10 @@ h1, p {
     font-family:'Red Hat Display', sans-serif;
 }
 
+h2 {
+    font-family:'Red Hat Display', sans-serif;
+}
+
 body {
     background-image:url("./images/pattern-background-mobile.svg");
 }
@@ -27,6 +31,11 @@ img {
 }
 
 #music-icon {
+    width:15%;
+}
 
+.plan-component {
+    display:flex;
+    background-color:#f5f7ff;
 }
 
