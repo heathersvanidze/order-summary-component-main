@@ -6,6 +6,7 @@ h1, p {
 
 h2 {
     font-family:'Red Hat Display', sans-serif;
+    font-size:16px;
 }
 
 body {
@@ -32,10 +33,20 @@ img {
 
 #music-icon {
     width:15%;
+    padding:10px;
 }
 
 .plan-component {
     display:flex;
     background-color:#f5f7ff;
+    align-items:center;
+    justify-content: space-between;
 }
 
+.plan-text {
+    padding:10px;
+}
+
+.change {
+    padding:10px;
+}
