@@ -17,6 +17,7 @@ main {
     background-color: white;
     width:375px;
     margin:auto;
+    border-radius:5%;
 }
 
 figure {
@@ -40,7 +41,10 @@ img {
     display:flex;
     background-color:#f5f7ff;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
+    width:300px;
+    margin:auto;
+    border-radius:5%;
 }
 
 .plan-text {
@@ -49,4 +53,12 @@ img {
 
 .change {
     padding:10px;
+}
+
+.payment-button {
+    margin:20px;
+}
+
+#cancel {
+    margin:20px;
 }
