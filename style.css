@@ -11,6 +11,7 @@ h2 {
 
 body {
     background-image:url("./images/pattern-background-mobile.svg");
+    background-size: cover;
     display: grid; 
     grid-template-rows: auto 1fr; 
     place-items: center;
