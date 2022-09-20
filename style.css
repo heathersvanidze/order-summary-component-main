@@ -11,11 +11,13 @@ h2 {
 
 body {
     background-image:url("./images/pattern-background-mobile.svg");
-    background-size: cover;
+    background-size: contain;
+    background-color: #E1E9FF;
     display: grid; 
     grid-template-rows: auto 1fr; 
     place-items: center;
     margin:0;
+    background-repeat: no-repeat;
 }
 
 main {
